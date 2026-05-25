@@ -7,7 +7,7 @@ host = "localhost"
 puerto = "3306"
 base_datos = "hospitales_db"
 
-""" Camarón 345 """
+""" Camarón 345U """
 ruta_csv = r"C:\DB_Safe\Future\Projects\HP-ANT\data.processed\hospitales_antioquia_limpio.csv"
 
 df = pd.read_csv(ruta_csv, sep=";", quotechar='"', encoding="utf-8")
